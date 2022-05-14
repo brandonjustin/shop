@@ -1,0 +1,10 @@
+{
+  "blogs": [
+    {
+      "title": "Mastering react.js",
+      "body": "react is a javascipt library used to build Ui",
+      "author": "Brandon",
+      "id": 1
+    }
+  ]
+}

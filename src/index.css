@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  display: flex;
+  justify-content:center;
+max-width: 70%;
+margin-left: 10%;
+border-bottom: 1px solid gainsboro;
+}
+
+.links{
+  margin-left:auto;
+padding-top: 32px;
+}
+a.nav-btn{
+  font-size: 18px;
+  text-decoration: none;
+  margin: 4px 8px;
+
+}
+a.nav-btn:hover{
+  color: #f1356d;
+}
+a{
+  text-decoration: none;
+}
+a:active{
+  color:#551A8B;
+}
+
+h1.logo{
+  color: dodgerblue;
+}
+.content{
+  
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+h2{
+  color: #f1356d;
+}
+
+.blog-preview{
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.container label{
+  text-align: left;
+  display: block;
+}
+.container h2{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color:#f1356d;
+}
+
+.container input,.container textarea,.container select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.blog-detail button{
+  background-color: #f1356d;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.container button{
+  background-color: #f1356d;
+  color: white;
+  border: 0px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+option{
+  color: black;
+}
+
+
+
+
