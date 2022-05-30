@@ -5,8 +5,8 @@ return(
 <div className="navbar">
 <h1 className="logo">LURIX</h1>
 <div className="links">
-<a href="/" className="nav-btn">Home</a>
-<a href="/create" className="nav-btn">New Blog</a>
+<Link to="/" className="nav-btn">Home</Link>
+<Link to="/create" className="nav-btn">New Blog</Link>
 
 
 </div>
